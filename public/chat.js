@@ -1,5 +1,5 @@
 // MAKE CONNECTION
-var socket = io.connect('http://localhost:3000');
+var socket = io.connect('https://chatapp-molki-20903928e48e.herokuapp.com/');
 
 // Query DOM
 var message = document.getElementById('message'),
